@@ -1,4 +1,4 @@
-name: posthog_flutter
+name: ablaevent_flutter
 description: Flutter implementation of Posthog client for iOS, Android and Web
 version: 3.1.0
 homepage: https://www.posthog.com
