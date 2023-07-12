@@ -1,8 +1,8 @@
 import 'package:flutter/services.dart';
-import 'package:posthog_flutter/src/posthog_default_options.dart';
-import 'package:posthog_flutter/src/posthog_platform_interface.dart';
+import 'package:ablaevent_flutter/src/ablaevent_default_options.dart';
+import 'package:ablaevent_flutter/src/ablaevent_platform_interface.dart';
 
-const MethodChannel _channel = MethodChannel('posthogflutter');
+const MethodChannel _channel = MethodChannel('ablaeventflutter');
 
 class PosthogMethodChannel extends PosthogPlatform {
   Future<void> identify({

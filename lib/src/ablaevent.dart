@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:posthog_flutter/src/posthog_platform_interface.dart';
+import 'package:ablaevent_flutter/src/ablaevent_platform_interface.dart';
 
-export 'package:posthog_flutter/src/posthog_default_options.dart';
-export 'package:posthog_flutter/src/posthog_observer.dart';
+export 'package:ablaevent_flutter/src/ablaevent_default_options.dart';
+export 'package:ablaevent_flutter/src/ablaevent_observer.dart';
 
 class Posthog {
   static PosthogPlatform get _posthog => PosthogPlatform.instance;

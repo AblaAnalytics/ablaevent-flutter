@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:posthog_flutter/posthog_flutter.dart';
+import 'package:ablaevent_flutter/ablaevent_flutter.dart';
 
 void main() {
   /// Wait until the platform channel is properly initialized so we can call

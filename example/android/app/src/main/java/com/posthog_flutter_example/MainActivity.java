@@ -1,4 +1,4 @@
-package com.posthog.posthog_flutter_example;
+package com.ablaevent.ablaevent_flutter_example;
 
 
 import io.flutter.embedding.android.FlutterActivity;

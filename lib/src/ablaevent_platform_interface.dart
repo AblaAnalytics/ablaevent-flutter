@@ -1,4 +1,4 @@
-import 'package:posthog_flutter/src/posthog_method_channel.dart';
+import 'package:ablaevent_flutter/src/ablaevent_method_channel.dart';
 
 abstract class PosthogPlatform {
   /// The default instance of [PosthogPlatform] to use

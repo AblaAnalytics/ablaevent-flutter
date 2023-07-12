@@ -1,4 +1,4 @@
-package com.posthog.posthog_flutter;
+package com.ablaevent.ablaevent_flutter;
 
 import androidx.annotation.NonNull;
 

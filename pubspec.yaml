@@ -25,10 +25,10 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.posthog.posthog_flutter
-        pluginClass: PosthogFlutterPlugin
+        package: com.ablaevent.ablaevent_flutter
+        pluginClass: AblaeventFlutterPlugin
       ios:
-        pluginClass: PosthogFlutterPlugin
+        pluginClass: AblaeventFlutterPlugin
       web:
-        pluginClass: PosthogWeb
-        fileName: src/posthog_web.dart
+        pluginClass: AblaeventWeb
+        fileName: src/ablaevent_web.dart

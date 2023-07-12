@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:posthog_flutter/posthog_flutter.dart';
+import 'package:ablaevent_flutter/ablaevent_flutter.dart';
 
 typedef String? ScreenNameExtractor(RouteSettings settings);
 

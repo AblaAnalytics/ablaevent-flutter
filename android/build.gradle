@@ -1,4 +1,4 @@
-group 'com.posthog.posthog_flutter'
+group 'com.ablaevent.ablaevent_flutter'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -34,6 +34,6 @@ android {
     }
 
     dependencies {
-        implementation 'com.posthog.android:posthog:2.0.0'
+        implementation 'com.ablaevent.android:ablaevent:2.0.0'
     }
 }

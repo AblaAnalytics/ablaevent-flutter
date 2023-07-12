@@ -1,10 +1,10 @@
-#import "PosthogFlutterPlugin.h"
-#import <PostHog/PHGPostHog.h>
-#import <PostHog/PHGPostHogIntegration.h>
-#import <PostHog/PHGContext.h>
-#import <PostHog/PHGMiddleware.h>
+#import "AblaeventFlutterPlugin.h"
+#import <Ablaevent/PHGPostHog.h>
+#import <Ablaevent/PHGPostHogIntegration.h>
+#import <Ablaevent/PHGContext.h>
+#import <Ablaevent/PHGMiddleware.h>
 
-@implementation PosthogFlutterPlugin
+@implementation AblaeventFlutterPlugin
 // Contents to be appended to the context
 static NSDictionary *_appendToContextMiddleware;
 
@@ -12,9 +12,9 @@ static NSDictionary *_appendToContextMiddleware;
   @try {
     NSString *path = [[NSBundle mainBundle] pathForResource: @"Info" ofType: @"plist"];
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile: path];
-    NSString *writeKey = [dict objectForKey: @"com.posthog.posthog.API_KEY"];
-    NSString *posthogHost = [dict objectForKey: @"com.posthog.posthog.POSTHOG_HOST"];
-    BOOL captureApplicationLifecycleEvents = [[dict objectForKey: @"com.posthog.posthog.CAPTURE_APPLICATION_LIFECYCLE_EVENTS"] boolValue];
+    NSString *writeKey = [dict objectForKey: @"com.ablaevent.ablaevent.API_KEY"];
+    NSString *posthogHost = [dict objectForKey: @"com.ablaevent.ablaevent.POSTHOG_HOST"];
+    BOOL captureApplicationLifecycleEvents = [[dict objectForKey: @"com.ablaevent.ablaevent.CAPTURE_APPLICATION_LIFECYCLE_EVENTS"] boolValue];
     PHGPostHogConfiguration *configuration = [PHGPostHogConfiguration configurationWithApiKey:writeKey host:posthogHost];
 
     // This middleware is responsible for manipulating only the context part of the request,
