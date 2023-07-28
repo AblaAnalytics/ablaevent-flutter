@@ -6,7 +6,7 @@ Flutter plugin to support iOS, Android and Web sources at https://posthog.com.
 
 ## Usage
 
-To use this plugin, add `posthog_flutter` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add `ablaevent_flutter` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ### Supported methods
 

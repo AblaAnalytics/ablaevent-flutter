@@ -16,8 +16,8 @@ Add these values in AndroidManifest.xml
 	<activity>
 		[...]
 	</activity>
-	<meta-data android:name="com.posthog.posthog.API_KEY" android:value="phc_ySCF4YinUf6DxprJ5B0jXtzgijeTqFkWPsIIfC3yTrC" />
-	<meta-data android:name="com.posthog.posthog.POSTHOG_HOST" android:value="https://eu.posthog.com" />
+	<meta-data android:name="com.posthog.posthog.API_KEY" android:value="PHC" />
+	<meta-data android:name="com.posthog.posthog.POSTHOG_HOST" android:value="https://e.abla.io" />
 	<meta-data android:name="com.posthog.posthog.TRACK_APPLICATION_LIFECYCLE_EVENTS" android:value="false" />
 	<meta-data android:name="com.posthog.posthog.DEBUG" android:value="false" />
 </application>
